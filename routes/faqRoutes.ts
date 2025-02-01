@@ -13,13 +13,13 @@ const router = Router();
 router.get('/faqs', getFaqs);
 
 // Fetch FAQs in English
-router.get('/faqs/english', getFaqsInEnglish);
+router.get('/faqs/?lang=en', getFaqsInEnglish);
 
 // Fetch FAQs in Hindi
-router.get('/faqs/hindi', getFaqsInHindi);
+router.get('faqs/?lang=hi', getFaqsInHindi);
 
 // Fetch FAQs in Bengali
-router.get('/faqs/bengali', getFaqsInBengali);
+router.get('/faqs/?lang=bn', getFaqsInBengali);
 
 // Create a new FAQ (POST request)
 router.post('/faqs', createFaq);
