@@ -1,0 +1,23 @@
+{
+  "name": "faqs-model",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rohan5050/Faqs-Model.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rohan5050/Faqs-Model/issues"
+  },
+  "homepage": "https://github.com/Rohan5050/Faqs-Model#readme",
+  "dependencies": {
+    "@types/typescript": "^0.4.29"
+  }
+}
